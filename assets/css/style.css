@@ -24,3 +24,19 @@ body {
 }
 
 /* https://www.w3schools.com/howto/howto_css_fixed_menu.asp */
+
+.card {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (min-width: 0px) and (max-width: 991px) {
+    #responsiveContactButton {
+        display: none;
+    }       
+}
+
+@media screen and (min-width: 992px) and (max-width: 4000px) {
+    #responsiveContact {
+        display: none;
+    }
+}
