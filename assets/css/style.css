@@ -8,18 +8,9 @@
     text-decoration: none;
 }
 
-#alj {
-    width:calc(5vw + 75px);
-    clip-path: circle(50% at 50% 50%);
-
+p {
+    font-size: 1.15em;
 }
-
-
-
-/* #bio p {
-    margin-left: 300px;
-    margin-right: 300px;
-} */
 
 body {
     /* background-image: url(https://images.unsplash.com/photo-1653163061406-730a0df077eb); */
@@ -36,10 +27,6 @@ body {
     width: 100%;
     z-index: 10;
     overflow: hidden;
-}
-
-.navbar-nav {
-    /* border: white solid 0.5px; */
 }
 
 .nav-item a:hover, #contact a:hover {
@@ -91,11 +78,21 @@ body {
 }
 
 .list-group-item-action {
+    font-size: 1.15em;
     list-style: none;
     color: white;
 
 }
 
+#alj {
+    width:calc(5vw + 75px);
+    clip-path: circle(50% at 50% 50%);
+
+}
+
+#contact {
+    font-size: 1.2em;
+}
 
 /* Media queries used to restyle navbar contact button in responsive dropbown only */
 
