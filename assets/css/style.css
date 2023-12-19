@@ -1,6 +1,6 @@
 * {
     
-    /* border: hotpink solid 1px; */
+    border: hotpink solid 1px;
 
 }
 
@@ -13,6 +13,8 @@
     clip-path: circle(50% at 50% 50%);
 
 }
+
+
 
 /* #bio p {
     margin-left: 300px;
@@ -40,7 +42,7 @@ body {
     /* border: white solid 0.5px; */
 }
 
-.nav-item:hover {
+.nav-item, #contact a:hover {
     opacity: 0.75;
     box-shadow: 2px 2px 2px white;
 }

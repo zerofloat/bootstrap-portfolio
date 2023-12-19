@@ -38,9 +38,9 @@
             <a class="nav-link text-light" href="/assets/ALJ_CV_23.pdf">CV</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" id=responsiveContact href="#contactFooter">Contact</a>
+            <a class="nav-link text-light" id=responsiveContact href="#contactContainer">Contact</a>
         </ul>
-        <a class="nav-link text-light" href="#"><button type="button" class="btn btn-light"
+        <a class="nav-link text-light" href="#contact"><button type="button" class="btn btn-light"
             id="responsiveContactButton">Contact</button></a>
         </li>
       </div>
@@ -57,17 +57,23 @@
           <div class="col-sm-12 col-md-12 col-lg-12" id="avatarContainer">
             <img src="/assets/images/ALJ.png" alt="avatar" id="alj">
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-12 pt-4" id="bio">
-            <p>Hi! I'm Alexander.<br>I'm an aspiring front-end developer with a background in music, live events, and
+          <div class="col-sm-12 col-md-12 col-lg-12 pt-4" id="bioName">
+            <p>Hi! I'm Alexander.</p>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-12 pt-1" id="bio1">
+            <p>I'm an aspiring front-end developer with a background in music, live events, and
               the charitable sector. I'm super excited to start on my new web development journey, and can't wait to put
-              my new skills into use and build clean, functional web applications. </p>
+              my new skills into use and build clean, functional web applications.</p>
+            <div class="col-sm-12 col-md-12 col-lg-12" id="bio2">
+              <p>When I'm not debugging my code, containing my containers, or nesting my divs, you can find me in the
+                studio, fighting my way through London traffic on my bike, or dancing in a fogged-out room.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
   </div>
-
   <!-- Jumbotron end -->
 
 
@@ -76,7 +82,7 @@
   <div class="container">
     <div class="row">
       <div class="cardContainer col-sm-12 col-md-4 col-lg-4">
-        <div class="card  ">
+        <div class="card">
           <a class="text-light" href="https://zerofloat.github.io/module_1_challenge/" target="_blank"><img
               src="assets/images/horiseon.jpg" class="card-img-top" id="horiseonCardImg" alt="horiseon">
           </a>
@@ -171,31 +177,39 @@
       <div class="row">
         <div class="container pt-5 col-sm-12 col-md-6 col-lg-6" id="About">
           <h5>About</h5>
-          <p>Pellentesque porttitor tristique tortor, id euismod ante facilisis eget. Aliquam tempor congue velit vitae
-            gravida. Etiam a blandit nunc. Aliquam malesuada, diam non commodo ullamcorper, dui tortor vehicula ante,
-            quis volutpat est orci eget ipsum.</p>
+          <p>I'm an aspiring front-end developer with a background in music, live events, and
+            the charitable sector. I'm super excited to start on my new web development journey, and can't wait to put
+            my new skills into use and build clean, functional web applications.</p>
         </div>
         <div class="container pt-5 col-sm-12 col-md-6 col-lg-6">
           <h5>Skills</h5>
           <ul class="list-group" id="skills">
             <li class="list-group-item-action">JS (React/Node/Vite/Vue)</li>
             <li class="list-group-item-action">Vanilla HTML + CSS</li>
-            <li class="list-group-item-action">CI/CD, TDD </li>
             <li class="list-group-item-action">UI + UX</li>
+            <li class="list-group-item-action">CI/CD + TDD </li>
           </ul>
         </div>
       </div>
 
       <!-- Contact Footer -->
-
-      <div class="container-fluid pt-5">
-        <!-- <h1 class="display-5 fw-bold text-center">Alexander Jackson</h1> -->
-        <div class="container pt-5 text-center">
+      <div class="container-fluid pt-5" id="contact">
+        <!-- <div class="container pt-5 text-center"> -->
           <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12" id="contactFooter">
-              <a class="text-light" href="mailto:my-email-address@someones-computer.com?subject=Hello!">Email</a>
-              <a class="text-light" href="tel:+447123456789">Phone</a>
-              <a class="text-light" href="https://www.github.com/zerofloat">GitHub</a>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <div class="contactEmail">
+                <a class="text-light" href="mailto:my-email-address@someones-computer.com?subject=Hello!">Email</a></div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <div class="contactPhone">
+                <a class="text-light" href="tel:+447123456789">Phone</a></div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <div class="contactGit">
+                <a class="text-light" href="https://www.github.com/zerofloat">GitHub</a></div>
+            </div>
+              <!-- <div class="contactPhone"><a class="text-light" href="tel:+447123456789">Phone</a></div>
+              <div class="contactGit"><a class="text-light" href="https://www.github.com/zerofloat">GitHub</a></div> -->
             </div>
 
             <!-- Contact Footer end -->
