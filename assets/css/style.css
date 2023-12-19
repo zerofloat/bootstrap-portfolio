@@ -1,6 +1,6 @@
 * {
     
-    border: hotpink solid 1px;
+    /* border: hotpink solid 1px; */
 
 }
 
@@ -9,7 +9,7 @@
 }
 
 #alj {
-    width:calc(7.5vw + 50px);
+    width:calc(5vw + 75px);
     clip-path: circle(50% at 50% 50%);
 
 }
@@ -42,7 +42,7 @@ body {
     /* border: white solid 0.5px; */
 }
 
-.nav-item, #contact a:hover {
+.nav-item a:hover, #contact a:hover {
     opacity: 0.75;
     box-shadow: 2px 2px 2px white;
 }
