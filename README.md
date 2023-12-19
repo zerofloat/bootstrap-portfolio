@@ -2,6 +2,9 @@
 
 This repository contains an updated responsive portfolio site built using Bootstrap components with some additional styling via CSS. The site has a minimal design, and makes use of Bootstrap containers and cards throughout.
 
+
+![screenshot of responsive portfolio](assets/images/portfolio-screenshot.jpg)
+
 # Installation
 
 N/A
